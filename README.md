@@ -23,7 +23,8 @@ python animetracker/manage.py migrate
 
 ## Principais funcionalidades
 
-- Gestão de usuários através do modelo customizado `Usuario`.
+- Gestão de usuários através do modelo customizado `Usuario` localizado no app `accounts`.
+- O modelo inclui campos de criação, última atualização, último login, nome, email e senha.
 - Cadastro de séries (`Serie`) de tipo anime ou mangá com sinopse e total de episódios/capítulos.
 - Registro de avaliações (`Avaliacao`) contendo nota, progresso e comentários do usuário.
 - Acesso à interface administrativa do Django para gerenciar usuários, séries e avaliações.

@@ -1,11 +1,6 @@
 from django.contrib import admin
 
-from .models import Usuario, Serie, Avaliacao
-
-
-@admin.register(Usuario)
-class UsuarioAdmin(admin.ModelAdmin):
-    pass
+from .models import Serie, Avaliacao
 
 
 @admin.register(Serie)

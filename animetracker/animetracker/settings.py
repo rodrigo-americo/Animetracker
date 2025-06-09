@@ -15,6 +15,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'accounts',
     'tracker',
 ]
 
@@ -81,6 +82,6 @@ USE_TZ = True
 STATIC_URL = 'static/'
 
 # Custom user model used by the tracker app
-AUTH_USER_MODEL = 'tracker.Usuario'
+AUTH_USER_MODEL = 'accounts.Usuario'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
